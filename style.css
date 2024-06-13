@@ -1,0 +1,110 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border: none;
+    outline: none;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1,
+h2,
+footer span {
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.container {
+    background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.form__group {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+    font-size: 18px;
+}
+
+input {
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #000000;
+}
+
+input,
+button {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #007bff;
+    border: none;
+	color: #ffffff;
+    font-size: 20px;
+	cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#logo__preview {
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer span {
+    font-size: 18px;
+}
